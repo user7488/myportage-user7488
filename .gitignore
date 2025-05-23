@@ -1,0 +1,22 @@
+# Gentoo overlay specific ignores
+metadata/md5-cache/
+metadata/pkg_desc_index
+metadata/cache/
+profiles/use.local.desc
+
+# Common temporary files
+*~
+*.swp
+*.tmp
+
+# Compiled Python files
+*.py[cod]
+__pycache__/
+
+# Package manager specific files
+.emerge-*
+
+# Possible build artifacts
+*.o
+*.so
+*.a

@@ -1,0 +1,9 @@
+[Unit]
+Description=Poll Sensors Service
+
+[Service]
+Type=exec
+ExecStart=monitor-sensor
+
+[Install]
+WantedBy=multi-user.target
